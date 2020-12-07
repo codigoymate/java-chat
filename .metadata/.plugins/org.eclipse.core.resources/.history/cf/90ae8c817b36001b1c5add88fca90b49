@@ -1,0 +1,21 @@
+package com.codigoymate.chat.client;
+
+import javax.swing.SwingUtilities;
+
+public class Chat {
+	private MainWindow mainWindow;
+	
+	public Chat() {
+		mainWindow = new MainWindow(this);
+		
+		SwingUtilities.invokeLater(() -> mainWindow.setVisible(true));
+	}
+	
+	public MainWindow getMainWindow() {
+		return mainWindow;
+	}
+	
+	public static void main(String[] args) {
+		new Chat();
+	}
+}

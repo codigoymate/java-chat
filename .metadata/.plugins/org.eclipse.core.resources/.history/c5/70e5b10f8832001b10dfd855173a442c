@@ -1,0 +1,5 @@
+package com.codigoymate.net.server;
+
+public class Connection {
+
+}

@@ -1,0 +1,22 @@
+package com.codigoymate.chat.server;
+
+import java.net.Socket;
+
+import com.codigoymate.net.Message;
+import com.codigoymate.net.server.Connection;
+
+public class UserConnection extends Connection {
+
+	private ChatServer server;
+	
+	public UserConnection(ChatServer server, Socket socket) {
+		super(socket);
+		this.server = server;
+	}
+
+	@Override
+	public void receiveMessage(Message obj) {
+		
+	}
+
+}

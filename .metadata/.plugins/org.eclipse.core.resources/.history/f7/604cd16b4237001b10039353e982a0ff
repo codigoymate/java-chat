@@ -1,0 +1,5 @@
+package com.codigoymate.chat.server;
+
+public class UserConnection {
+
+}

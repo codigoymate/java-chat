@@ -1,0 +1,5 @@
+package com.codigoymate.chat.client;
+
+public class ConnectDialog {
+
+}

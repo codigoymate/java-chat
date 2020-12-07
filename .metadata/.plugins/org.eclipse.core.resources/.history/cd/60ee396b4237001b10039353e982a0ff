@@ -1,0 +1,12 @@
+package com.codigoymate.chat;
+
+import com.codigoymate.net.Message;
+
+public class ConnectedMessage implements Message {
+
+	@Override
+	public String getType() {
+		return "connected";
+	}
+
+}

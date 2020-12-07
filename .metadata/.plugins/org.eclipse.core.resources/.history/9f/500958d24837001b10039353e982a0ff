@@ -1,0 +1,16 @@
+package com.codigoymate.chat.client;
+
+import java.awt.Window;
+
+import javax.swing.JDialog;
+
+public class ConnectDialog extends JDialog {
+	private static final long serialVersionUID = -3092660330817609942L;
+
+	private Chat chat;
+	
+	public ConnectDialog(Chat chat, Window parent) {
+		super(parent);
+		this.chat = chat;
+	}
+}

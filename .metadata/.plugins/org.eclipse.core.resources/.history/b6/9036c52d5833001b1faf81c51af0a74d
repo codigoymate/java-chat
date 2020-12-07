@@ -1,0 +1,5 @@
+package com.codigoymate.net;
+
+public interface Message {
+
+}

@@ -1,0 +1,13 @@
+package com.codigoymate.chat.client;
+
+import javax.swing.JFrame;
+
+public class MainWindow extends JFrame {
+	private static final long serialVersionUID = -1738982773003242653L;
+
+	private Chat chat;
+	
+	public MainWindow(Chat chat) {
+		this.chat = chat;
+	}
+}

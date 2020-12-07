@@ -1,0 +1,18 @@
+package com.codigoymate.chat.client;
+
+import com.codigoymate.net.Message;
+import com.codigoymate.net.client.ClientRunnable;
+
+public class ChatClient extends ClientRunnable {
+
+	public ChatClient(String address, int port) {
+		super(address, port);
+	}
+
+	@Override
+	public void receiveMessage(Message obj) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

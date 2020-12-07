@@ -1,0 +1,5 @@
+package com.codigoymate.chat;
+
+public class StringMessage {
+
+}

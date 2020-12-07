@@ -1,0 +1,11 @@
+package com.codigoymate.chat.client;
+
+public class Chat {
+	private MainWindow mainWindow;
+	
+	public Chat() {
+		mainWindow = new MainWindow(this);
+		
+		
+	}
+}

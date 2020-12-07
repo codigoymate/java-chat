@@ -1,0 +1,7 @@
+package com.codigoymate.chat.client;
+
+import javax.swing.JDialog;
+
+public class ConnectDialog extends JDialog {
+
+}

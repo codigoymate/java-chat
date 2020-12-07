@@ -1,0 +1,23 @@
+package com.codigoymate.chat;
+
+import com.codigoymate.net.Message;
+
+public class UserNameMessage implements Message {
+
+	private String userName;
+	
+	public UserNameMessage() {
+		
+	}
+	
+	private UserNameMessage(String userName) {
+		this.userName = userName;
+	}
+	
+	@Override
+	public String getType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,19 @@
+package test;
+
+import java.net.Socket;
+
+import com.codigoymate.net.server.Connection;
+
+public class User extends Connection {
+
+	public User(Socket socket) {
+		super(socket);
+	}
+
+	@Override
+	public void receiveMessage(Object obj) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

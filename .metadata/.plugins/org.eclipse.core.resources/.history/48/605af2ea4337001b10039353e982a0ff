@@ -1,0 +1,22 @@
+package com.codigoymate.chat;
+
+import com.codigoymate.net.Message;
+
+public class StringMessage implements Message {
+
+	private String string;
+	
+	public StringMessage() {
+		
+	}
+	
+	public StringMessage(String string) {
+		this.string = string
+	}
+	
+	@Override
+	public String getType() {
+		return "string";
+	}
+
+}
