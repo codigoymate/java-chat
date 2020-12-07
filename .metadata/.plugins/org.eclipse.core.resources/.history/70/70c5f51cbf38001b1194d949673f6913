@@ -70,9 +70,6 @@ public class ConnectDialog extends JDialog {
 		panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.LINE_AXIS));
 		panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-		
-		panel.add(Box.createHorizontalGlue());
-		
 		JButton btnConnect = new JButton("Conectar");
 		btnConnect.addActionListener(e -> connect());
 		panel.add(btnConnect);

@@ -1,7 +1,0 @@
-package test;
-
-import java.io.Serializable;
-
-public class Mensaje implements Serializable {
-	public String string;
-}

@@ -4,8 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Window;
 
-import javax.swing.BorderFactory;
-import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -38,7 +36,6 @@ public class ConnectDialog extends JDialog {
 		
 		JPanel listPanel = new JPanel();
 		listPanel.setLayout(new BoxLayout(listPanel, BoxLayout.PAGE_AXIS));
-		listPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 		
 		// Coloqué los campos en el norte para que queden aplastados verticalmente.
 		getContentPane().add(listPanel, BorderLayout.NORTH);
@@ -53,9 +50,6 @@ public class ConnectDialog extends JDialog {
 		
 		listPanel.add(panel);
 		
-		// Agrega un espacio
-		listPanel.add(Box.createRigidArea(new Dimension(0, 10)));
-		
 		// Username
 		panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.LINE_AXIS));
@@ -69,10 +63,6 @@ public class ConnectDialog extends JDialog {
 		// Boton
 		panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.LINE_AXIS));
-		panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-		
-		panel.add(Box.createHorizontalGlue());
-		
 		JButton btnConnect = new JButton("Conectar");
 		btnConnect.addActionListener(e -> connect());
 		panel.add(btnConnect);
